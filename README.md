@@ -15,7 +15,7 @@
 
 # Features
 ## Modules
-- AutoReply
+- AutoReply (only fetch tellraw)
 
 # Examples
 ### AutoReply
@@ -29,14 +29,14 @@
 
 - Chat Input        : `You have 30 seconds to send the word "Module"`
 - Fetch Message     : `You have 30 seconds to send the word`
-- Reply Message     : `%ARGS_8`
+- Reply Message     : `%ARGS_8%`
 - Remove Quotations : `true`
 
 <hr />
 
 - Chat Input        : `You have 30 seconds to reverse the word "Addons"`
 - Fetch Message     : `You have 30 seconds to reverse the word`
-- Reply Message     : `ARGS-INVERSED_8`
+- Reply Message     : `%ARGS-INVERSED_8%`
 - Remove Quotations : `true`
 
 <hr />
