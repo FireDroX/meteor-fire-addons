@@ -16,3 +16,27 @@
 # Features
 ## Modules
 - AutoReply
+
+# Examples
+### AutoReply
+
+- Chat Input        : `AntiScript >> type 8dJe2d9 in chat !`
+- Fetch Message     : `AntiScript >> type`
+- Reply Message     : `%ARGS_3%`
+- Remove Quotations : `false`
+
+<hr />
+
+- Chat Input        : `You have 30 seconds to send the word "Module"`
+- Fetch Message     : `You have 30 seconds to send the word`
+- Reply Message     : `%ARGS_8`
+- Remove Quotations : `true`
+
+<hr />
+
+- Chat Input        : `You have 30 seconds to reverse the word "Addons"`
+- Fetch Message     : `You have 30 seconds to reverse the word`
+- Reply Message     : `ARGS-INVERSED_8`
+- Remove Quotations : `true`
+
+<hr />
