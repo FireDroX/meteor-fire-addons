@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "fire.meteor.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+	"MessageHandlerMixin"
+],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

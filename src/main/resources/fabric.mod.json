@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fire-addons",
+  "version": "${version}",
+  "name": "Fire's Addons",
+  "description": "Utility add-on for Meteor Client.",
+  "authors": [
+    "FireDroX"
+  ],
+  "contact": {
+    "repo": "https://github.com/AntiCope/meteor-crash-addon"
+  },
+  "icon": "assets/meteorcrashaddon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "fire.meteor.Addon"
+    ]
+  },
+  "mixins": [
+    "firemeteor.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "255,0,0",
+    "github:sha": "@gh_hash@"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=@mc_version@",
+    "meteor-client": "*"
+  }
+}
