@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo and Title -->
-  <img src="/src/main/resources/assets/rejects/icon.png" alt="logo" width="20%"/>
+  <img src="/src/main/resources/assets/meteorfireaddon/icon.png" alt="logo" width="20%"/>
   <h1>Meteor Fire's Addons</h1>
   <p>Some random ideas.</p>
 </div>
