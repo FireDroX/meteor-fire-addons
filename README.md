@@ -15,7 +15,7 @@
 
 # Features
 ## Modules
-- AutoReply (only fetch tellraw)
+- AutoReply *(only fetch tellraw)*
 
 # Examples
 ### AutoReply
@@ -24,6 +24,7 @@
 - Fetch Message     : `AntiScript >> type`
 - Reply Message     : `%ARGS_3%`
 - Remove Quotations : `false`
+- Returned Message  : `8dJe2d9`
 
 <hr />
 
@@ -31,12 +32,14 @@
 - Fetch Message     : `You have 30 seconds to send the word`
 - Reply Message     : `%ARGS_8%`
 - Remove Quotations : `true`
+- Returned Message  : `Module`
 
 <hr />
 
-- Chat Input        : `You have 30 seconds to reverse the word "Addons"`
+- Chat Input        : `You have 30 seconds to reverse the word "snoddA"`
 - Fetch Message     : `You have 30 seconds to reverse the word`
 - Reply Message     : `%ARGS-INVERSED_8%`
 - Remove Quotations : `true`
+- Returned Message  : `Addons`
 
 <hr />
