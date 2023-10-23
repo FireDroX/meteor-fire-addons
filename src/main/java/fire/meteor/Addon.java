@@ -33,19 +33,19 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getWebsite() {
-        return "https://github.com/AntiCope/meteor-crash-addon";
+        return "https://github.com/FireDroX/meteor-fire-addons";
     }
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("AntiCope", "meteor-crash-addon");
+        return new GithubRepo("FireDroX", "meteor-fire-addons");
     }
 
     @Override
     public String getCommit() {
         String commit = FabricLoader
             .getInstance()
-            .getModContainer("meteor-crash-addon")
+            .getModContainer("meteor-fire-addons")
             .get().getMetadata()
             .getCustomValue("github:sha")
             .getAsString();

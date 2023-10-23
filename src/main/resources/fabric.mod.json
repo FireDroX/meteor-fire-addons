@@ -8,9 +8,9 @@
     "FireDroX"
   ],
   "contact": {
-    "repo": "https://github.com/AntiCope/meteor-crash-addon"
+    "repo": "https://github.com/FireDroX/meteor-fire-addons"
   },
-  "icon": "assets/meteorcrashaddon/icon.png",
+  "icon": "assets/meteorfireaddon/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
