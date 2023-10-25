@@ -16,13 +16,14 @@ import fire.meteor.modules.*;
 //import java.lang.invoke.MethodHandles;
 
 public class Addon extends MeteorAddon {
-    public static final Logger LOG = LoggerFactory.getLogger("CrashAddon");
+    public static final Logger LOG = LoggerFactory.getLogger("FireAddon");
     public static final Category CATEGORY = new Category("Fire", Items.TNT.getDefaultStack());
 
     @Override
     public void onInitialize() {
         LOG.info("Initializing Fire's Addons.");
 
+        Modules.get().add(new AutoFarm());
         Modules.get().add(new AutoReply());
     }
 
